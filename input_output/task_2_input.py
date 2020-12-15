@@ -1,6 +1,2 @@
-name = input("Podaj swoje imie: ")
-print("Twoje imie to: {name}".format(name=name))
-surname = input("Podaj swoje nazwisko: ")
-print("Twoje imie to: {surname}".format(surname=surname))
-birthDate = input("Podaj swoja date urodzenia: ")
-print("Twoja data urodzenia to: {birthDate}".format(birthDate=birthDate))
+name_surname_birt_date = input("Podaj swoje imie, nazwisko i date urodzenia: ")
+print(f"Twoje dane to: {name_surname_birt_date}")
